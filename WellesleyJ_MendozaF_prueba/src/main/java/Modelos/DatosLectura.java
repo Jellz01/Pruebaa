@@ -8,9 +8,9 @@ package Modelos;
  *
  * @author jellz
  */
-public class DatosLectura implements Datos{
+public class DatosLectura implements Datos {
     
-     private String[][] estudiantes;
+    private String[][] estudiantes;
 
     public DatosLectura(String[][] estudiantes) {
         this.estudiantes = estudiantes;
@@ -18,16 +18,18 @@ public class DatosLectura implements Datos{
 
     @Override
     public void procesar() {
-        
-         for (String[] estudiante : estudiantes) {
+        for (String[] estudiante : estudiantes) {
             // Lógica para procesar cada estudiante
             // ...
             // Puedes imprimir el nombre y las notas para cada estudiante como un ejemplo
             System.out.println("Estudiante: " + estudiante[0]);
             System.out.println("Notas: " + estudiante[1] + ", " + estudiante[2] + ", " + estudiante[3]);
+        }
     }
+
+    // Agregar el método getEstudiantes para obtener la información de estudiantes
+    public String[][] getEstudiantes() {
+        return estudiantes;
     }
-    
-    
-    
 }
+

@@ -15,9 +15,10 @@ public class Inicio {
          String[][] estudiantes = {
                 {"Joseph", "80", "90", "75"},
                 {"Fabian", "70", "85", "92"},
+                {"juan","0","0","0"}
                 
-                
-                el fabian es una perra
+    
+               
                 // ... Agrega más estudiantes según sea necesario
         };
 
